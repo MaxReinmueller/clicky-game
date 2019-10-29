@@ -1,4 +1,5 @@
 // import dependencies
+
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -20,34 +21,20 @@ const NavTabs = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar className="row" color="info" light expand="md">
+        <NavbarBrand className="col"></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
+          <Nav  navbar>
+          <NavItem className="col">
+              <NavLink href="/components/">Click</NavLink>
+            </NavItem>
+            <NavItem className="col">
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="col">
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Navbar>

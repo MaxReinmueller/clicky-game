@@ -1,6 +1,6 @@
 // dependencies
 import React from 'react';
-import Logo from '../images/imageHolder.png';
+import Logo from '../images/1.jpg';
 import {
     Card, CardImg, CardDeck, CardText, CardBody,
     CardTitle, CardSubtitle, Button
@@ -9,6 +9,7 @@ import "../styles/Cards.css";
 
 function Cards(props) {
     return (
+      <div className="container">
         <CardDeck>
         <Card className="cardStyle">
           <CardImg src={Logo} alt="Card image cap" />
@@ -20,6 +21,7 @@ function Cards(props) {
           <CardImg src={Logo} alt="Card image cap" />
         </Card>
       </CardDeck>
+      </div>
     );
 }
 

@@ -6,8 +6,8 @@ const MyJumbotron = (props) => {
     <div>
       <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 className="display-3 text-center">Clicky Cat Game!</h1>
+          <p className="lead text-center">Click on an image to earn points, but don't click on any more than once!</p>
         </Container>
       </Jumbotron>
     </div>
