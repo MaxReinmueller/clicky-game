@@ -1,9 +1,7 @@
 // dependencies
 import React from 'react';
-import Logo from '../images/1.jpg';
 import {
-    Card, CardImg, CardDeck, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    Card, CardImg, CardDeck
   } from 'reactstrap';
 import "../styles/Cards.css";
 
@@ -12,13 +10,7 @@ function Cards(props) {
       <div className="container">
         <CardDeck>
         <Card className="cardStyle">
-          <CardImg src={Logo} alt="Card image cap" />
-        </Card>
-        <Card className="cardStyle">
-          <CardImg src={Logo} alt="Card image cap" />
-        </Card>
-        <Card className="cardStyle">
-          <CardImg src={Logo} alt="Card image cap" />
+          <CardImg src={props.image} alt={props.id}/>
         </Card>
       </CardDeck>
       </div>
