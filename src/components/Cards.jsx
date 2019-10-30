@@ -1,19 +1,19 @@
 // dependencies
 import React from 'react';
 import {
-    Card, CardImg, CardDeck
+    Card, CardImg, CardTitle
   } from 'reactstrap';
 import "../styles/Cards.css";
 
 function Cards(props) {
+  console.log("cards", props);
     return (
-      <div className="container">
-        <CardDeck>
-        <Card className="cardStyle">
-          <CardImg src={props.image} alt={props.id}/>
-        </Card>
-      </CardDeck>
-      </div>
+      <div>
+      <Card>
+        <CardImg src={props.image} />
+        <CardTitle>{props.name}</CardTitle>
+      </Card>
+    </div>
     );
 }
 

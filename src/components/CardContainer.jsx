@@ -21,15 +21,17 @@ class CardContainer extends Component {
                 <MyJumbotron />
                 <Wrapper>
                 {this.state.object.map(card => (
-                    <Cards>
-                        id={object.id}
-                        image={object.image}
-                    </Cards>
+                    <Cards 
+                    key={card.id}
+                    img={card.image}
+                    name={card.name}
+                    />
                 ))}
-                </Wrapper>  
+                </Wrapper>
+                
             </div>
-        )
-    }
+        );
+    };
 
 }
 
