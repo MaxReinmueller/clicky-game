@@ -2,73 +2,73 @@
     {
         "id": 1,
         "name": "a",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/1.jpg",
+        "image": "https://live.staticflickr.com/65535/48987042937_d8aa7ae5b9_o.jpg",
         "count": 0
     },
     {
         "id": 2,
         "name": "b",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/2.jpg",
+        "image": "https://live.staticflickr.com/65535/48986848356_af4138762d_o.jpg",
         "count": 0
     },
     {
         "id": 3,
         "name": "c",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/3.jpg",
+        "image": "https://live.staticflickr.com/65535/48986848296_d648d92cb2_o.jpg",
         "count": 0
     },
     {
         "id": 4,
         "name": "d",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/4.jpg",
+        "image": "https://live.staticflickr.com/65535/48986286138_4f41ae8e20_o.jpg",
         "count": 0
     },
     {
         "id": 5,
         "name": "e",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/5.jpg",
+        "image": "https://live.staticflickr.com/65535/48987042762_aaae92d3e8_o.jpg",
         "count": 0
     },
     {
         "id": 6,
         "name": "f",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/30d8b286fdd95d30da1f6d81b32ef2212930143c/src/images/6.jpg",
+        "image": "https://live.staticflickr.com/65535/48987042662_b2d513639f_o.jpg",
         "count": 0
     },
     {
         "id": 7,
         "name": "g",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/7.jpg",
+        "image": "https://live.staticflickr.com/65535/48986286163_c9b5c1ac36_o.jpg",
         "count": 0
     },
     {
         "id": 8,
         "name": "h",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/8.jpg",
+        "image": "https://live.staticflickr.com/65535/48986848251_59900010a4_o.jpg",
         "count": 0
     },
     {
         "id": 9,
         "name": "i",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/9.jpg",
+        "image": "https://live.staticflickr.com/65535/48986286208_35db9e8f84_o.jpg",
         "count": 0
     },
     {
         "id": 10,
         "name": "j",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/10.jpg",
+        "image": "https://live.staticflickr.com/65535/48986286243_f585f797c1_o.jpg",
         "count": 0 
     },
     {
         "id": 11,
         "name": "k",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/11.jpg",
+        "image": "https://live.staticflickr.com/65535/48986848121_f9ab53e0c1_o.jpg",
         "count": 0
     },
     {
         "id": 12,
         "name": "l",
-        "image": "https://github.com/MaxReinmueller/clicky-game/blob/master/src/images/12.jpg",
+        "image": "https://live.staticflickr.com/65535/48987042687_1a6b0b4822_o.jpg",
         "count": 0
     }
 ]

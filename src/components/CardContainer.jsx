@@ -23,8 +23,9 @@ class CardContainer extends Component {
                 {this.state.object.map(card => (
                     <Cards 
                     key={card.id}
-                    img={card.image}
+                    image={card.image}
                     name={card.name}
+                    id={card.id}
                     />
                 ))}
                 </Wrapper>
