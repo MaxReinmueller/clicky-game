@@ -1,18 +1,13 @@
 // dependencies
 import React from 'react';
-import {
-    Card, CardImg
-  } from 'reactstrap';
 import "../styles/cards.css";
 
 function Cards(props) {
-  console.log("cards", props);
     return (
-      <div className="cardStyle">
-      <Card>
-        <CardImg src={props.image}/>
-      </Card>
+      <div  onClick={() => { props.shuffle(props.id)}}>
+        <img className="cardStyle" src={props.image} alt={props.name}/>
     </div>
+    
     );
 }
 

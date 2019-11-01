@@ -9,8 +9,16 @@ import Wrapper from './Wrapper';
 class CardContainer extends Component {
     state = {
         object,
-        // score: 0,
-        // topscore: 0
+    }
+
+
+    shuffle = id => {
+        this.setState({
+            object: this.state.object.sort(function(a,b){
+                return 0.5 - Math.random();
+            })
+        })
+        
     }
 
     
@@ -20,14 +28,16 @@ class CardContainer extends Component {
                 <NavTabs />
                 <MyJumbotron />
                 <Wrapper>
-                {this.state.object.map(card => (
-                    <Cards 
-                    key={card.id}
-                    image={card.image}
-                    name={card.name}
-                    id={card.id}
+                {this.state.object.map((object, i) => {
+                    return (
+                    <Cards
+                    id={object.id}
+                    image={object.image}
+                    key={i}
+                    shuffle={this.shuffle}
                     />
-                ))}
+                    )
+                    })}
                 </Wrapper>
                 
             </div>

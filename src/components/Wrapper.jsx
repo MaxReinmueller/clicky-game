@@ -4,7 +4,6 @@ import {
 } from 'reactstrap';
 
 function Wrapper(props) {
-    console.log("wrapper", props);
     return (
       <div className="container wrapper">
         <CardDeck>{props.children}</CardDeck>

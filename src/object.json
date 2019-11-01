@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "a",
-        "image": "https://live.staticflickr.com/65535/48987304377_9f6abf19ee_o.jpg",
+        "image": "#",
         "count": 0
     },
     {
@@ -80,7 +80,7 @@
     {
         "id": 14,
         "name": "n",
-        "image": "https://live.staticflickr.com/65535/48986578418_08fe33f39f_o.jpg",
+        "image": "#",
         "count": 0
     }
 ]
