@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
-import CardContainer from "./components/CardContainer";
+import GameContainer from "./components/GameContainer";
+
 
 
 function App() {
-  return <CardContainer />
+  return (
+    <div>
+  <GameContainer />
+  </div>
+  )
 }
 
 export default App;
