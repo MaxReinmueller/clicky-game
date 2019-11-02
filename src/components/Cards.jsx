@@ -1,6 +1,6 @@
 // dependencies
 import React from 'react';
-import "../styles/cards.css";
+import "./styles/cards.css";
 
 function Cards(props) {
     return (
